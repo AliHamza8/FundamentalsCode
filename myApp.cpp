@@ -14,7 +14,7 @@ int main() {
 		a = b;
 		b = sum;
 	}
-	cout << "Hello...";
+	
 	
 	return 0;
 }
