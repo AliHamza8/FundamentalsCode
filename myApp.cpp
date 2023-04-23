@@ -2,11 +2,13 @@
 using namespace std;
 
 int main() {
-	int i = 10;
+	int i, a, b, r = 1;
+	cout << "Enter two numbers";
+	cin >> a >> b;
+	i = a;
 	do {
-		cout << i << endl;
-		i--;
-	} while (i >= 1);
-
+		a = a * b;
+	} while (i >= b);
+	cout << "Result:" << a;
 	return 0;
 }
